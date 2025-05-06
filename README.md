@@ -18,7 +18,7 @@ Artikel yang dibuat membahas empat topik utama, yaitu:
 ### Anggota:
 
 - *Khairul Warisin Hammami* (admin, integrator & Bootstrap)  
-- *Gita Delsa Aviva* (Git dan GitHub)  
+- *inggita Delsa Aviva* (Git dan GitHub)  
 - *Ahmad Arfin* (CSS Flexbox)  
 - *Julkarnaen* (CSS Grid)
 
