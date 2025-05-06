@@ -27,3 +27,10 @@ Artikel yang dibuat membahas empat topik utama, yaitu:
 Setiap kontributor bekerja melalui fitur branch dan pull request, lalu digabungkan oleh admin melalui proses review.
 
 ---
+
+### Dasar-dasar Git dan GitHub  
+
+#### 1. Pengertian Git dan GitHub  
+Git adalah sistem version control yang digunakan untuk melacak perubahan pada sebuah code, sedangkan GitHub merupakan layanan berbasis cloud yang digunakan untuk menyimpan dan mengelola repository Git.
+
+
