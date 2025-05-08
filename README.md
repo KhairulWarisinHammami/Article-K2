@@ -27,3 +27,5 @@ Artikel yang dibuat membahas empat topik utama, yaitu:
 Setiap kontributor bekerja melalui fitur branch dan pull request, lalu digabungkan oleh admin melalui proses review.
 
 ---
+
+`git status`
