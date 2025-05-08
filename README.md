@@ -25,7 +25,7 @@ Artikel yang dibuat membahas empat topik utama, yaitu:
 ---
 
 Setiap kontributor bekerja melalui fitur branch dan pull request, lalu digabungkan oleh admin melalui proses review.
+Melalui proyek ini, kami tidak hanya memperdalam pemahaman teknis, tetapi juga melatih kerja sama tim dalam pengembangan berbasis Git.
 
 ---
 
-`git status`
