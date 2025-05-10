@@ -15,11 +15,19 @@
 
  Git merupakan sebuah sistem kontrol versi yang digunakan untuk melacak dan mengelola perubahan dalam suatu file proyek, terutama dalam pengembang perangkat lunak. Dengan menggunakan Git, pengembang dapat bekerja secara lokal dalam komputer, mencatat riwayat perubahan kode, membuat cabang (*branch*) untuk fitur baru, dan menyatukanya kembali ke versi utama tanpa kehilangan data. Git sangat membantu dalam kolaborasi karena memungkinkan banyak orang bekerja pada bagian yang berbeda tetapi dalam proyek yang sama.  
 
- Sedangkan GitHub, dalah layanan berbasis web yang menyediakan tempat penyimpanan repositori git secara online. GItHub mempermudah kolaborasi antar-pengembang dengan meyediakan fitur seperti *pull request*, *issues*, dan *code review*. Dengan GitHub, pengembang dapat membagikan kode mereka ke publik atau tim, berkontribusi pada proyek open-source, dan mengintegrasikan berbagai layanan otomatis seperti CI/CD.
+ Sedangkan GitHub, dalah layanan hosting berbasis cloud yang menyediakan tempat penyimpanan repositori git secara online. GItHub mempermudah kolaborasi antar-pengembang dengan meyediakan fitur seperti *pull request*, *issues*, dan *code review*. Dengan GitHub, pengembang dapat membagikan kode mereka ke publik atau tim, berkontribusi pada proyek open-source, dan mengintegrasikan berbagai layanan otomatis seperti CI/CD.
 
  Git dapat digunakan tanpa GitHub, akan tetati GitHub tidak bisa bekerja tanpa Git karena Git adalah teknologi dasar yang digunakan untuk mengelola versi kode.  
 
 Atau jika disimpulkan:  
-|         Git          |        GitHub         |
-|:--------------------:|:---------------------:|
-| Git adalah sistem pengelolaan kode sumber lokal yang digunakan untuk melacak perubahan pada kode | GitHub adalah |
+| Aspek | Git | GitHub |
+|:---|:---|:---|
+| Jenis | Aplikasi atau sistem kontrol versi (VCS) | Layanan hosting berbasis cloud |  
+| Fungsi utama | Melacak dan mengelola perubahan kode secara lokal | Menyimpan dan membagikan repositori Git secara online |  
+| Tempat bekerja | Lokal (di komputer) | Online (di wesite GitHub.com) |    
+| Kegunaan | Digunakan untuk mengatur versi kode | Digunakan untuk kolaborasi, review, dan distribusi kode |  
+| Koneksi internet | Tidak selalu diperlukan | Diperlukan untuk mengakses, meyimpan, atau berbagi kode |  
+| Antarmuka | Command Line Interface (CLI) | Web interface + CLI support |  
+| Kolabirasi tim | Terbatas tanpa layanan tambahan | Mendukung pull request, issue tracking, kode reviev, dsb |  
+
+
