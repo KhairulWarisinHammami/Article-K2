@@ -35,58 +35,58 @@ Atau jika disimpulkan:
 
  Berikut adalah dasar-dasar Git yang mencakup perintah umum dan fungsinya:  
 **1. Konfigurasi Awal Git**  
- | Perintah | Fungsi | 
- |:---|:---|  
- |'git config --global user.name "nama"'| Mengatur nama pengguna |  
- |'git config --global user.email "email@example.com"'| Mengatur email pengguna |  
- |'git config --list'| Menampilkan konfigurasi Git yang sedang aktif |  
+  | Perintah | Fungsi | 
+  |:---|:---|  
+  | git config --global user.name "nama" | Mengatur nama pengguna |  
+  | git config --global user.email "email@example.com" | Mengatur email pengguna |  
+  | git config --list | Menampilkan konfigurasi Git yang sedang aktif |  
 
 **2. membuat dan Mengelola Repository**  
- | Perintah | Fungsi |  
- |:---|:---|  
- |'git init'| Membuat repository Git baru di folder lokal |  
- |'git clone [url]'| Menyalin repository dari remote ke lokal |  
+  | Perintah | Fungsi |  
+  |:---|:---|  
+  | git init | Membuat repository Git baru di folder lokal |  
+  | git clone [url] | Menyalin repository dari remote ke lokal |  
  
 **3. Perubahan dan Penyimpanan**  
- | Perintah | Fungsi |  
- |:---|:---|  
- |'git status'| Menampilkan sataus perubahan file |  
- |'git add [file]'| Menambahkan file ke staging area |  
- |'git add'| Menambahkan semua perubahan ke staging |  
- |'git comit -m "pesan"'| Menyimpan perubahan ke repository lokal |  
- |'git diff'| Menampilkan perbedaan sebelum di-*commit* |  
+  | Perintah | Fungsi |  
+  |:---|:---|  
+  | git status | Menampilkan sataus perubahan file |  
+  | git add [file] | Menambahkan file ke staging area |  
+  | git add | Menambahkan semua perubahan ke staging |  
+  | git comit -m "pesan" | Menyimpan perubahan ke repository lokal |  
+  | git diff | Menampilkan perbedaan sebelum di-*commit* |  
 
 **4. Remote Repository**  
- | Perintah | Fungsi |  
- |:---|:---|  
- |'git remote add origin [url]'| Menambahkan remote repository |  
- |'git push -u origin master'| Mengirim commit ke remote branch utama |  
- |'git pull'| Menngambil update terbaru dari remote repository |  
- |'git fetch'| Mengambil update dari remote, tanpa marge otomatis |  
+  | Perintah | Fungsi |  
+  |:---|:---|  
+  | git remote add origin [url] | Menambahkan remote repository |  
+  | git push -u origin master | Mengirim commit ke remote branch utama |  
+  | git pull | Menngambil update terbaru dari remote repository |  
+  | git fetch | Mengambil update dari remote, tanpa marge otomatis |  
 
  **5. Branching dan Marging**  
- | Perintah | Fungsi |  
- |:---|:---|  
- |'git branch'| Melihat semua branch |  
- |'git branch [nama]'| Membuat branch baru |  
- |'git checkout [nama]'| Berpindah ke branch tertentu |  
- |'git marge [nama]'| Menggabungkan branch ke branch aktif |  
- |'git branch -d [nama]'| Menghapus branch lokal |  
+  | Perintah | Fungsi |  
+  |:---|:---|  
+  | git branch | Melihat semua branch |  
+  | git branch [nama] | Membuat branch baru |  
+  | git checkout [nama] | Berpindah ke branch tertentu |  
+  | git marge [nama] | Menggabungkan branch ke branch aktif |  
+  | git branch -d [nama] | Menghapus branch lokal |  
 
  **6. Riwayat dan Refisi**  
- | Perintah | Fungsi |  
- |:---|:---|  
- |'git log'| Melihat riwayat commit |  
- |'git log --online'| Log singkat satu baris per commit |  
- |'git checkout [commit_id]'| Berpindah ke commit tertentu |  
- |'git revert [commit_id]'| Membatalkan commit tertentu dengan membuat commit baru |  
- |'git reset --hard [commit_id]'| Mengembalikan ke commit tertentu (berbahaya: menghapus perubahan) |  
+  | Perintah | Fungsi |  
+  |:---|:---|  
+  | git log | Melihat riwayat commit |  
+  | git log --online | Log singkat satu baris per commit |  
+  | git checkout [commit_id] | Berpindah ke commit tertentu |  
+  | git revert [commit_id] | Membatalkan commit tertentu dengan membuat commit baru |  
+  | git reset --hard [commit_id] | Mengembalikan ke commit tertentu (berbahaya: menghapus perubahan) |  
 
  **7. Pembersihan dan Penanganan Sementara**  
- | Perintah | Fungsi |  
- |:---|:---|  
- |'git stash'| Menyimpan perubahan sementara |  
- |'git stash pop'| Mengembalikan perubahan yang di-stash |  
- |'git rm [file]'| Menghapus file dari repo dan file system |  
+  | Perintah | Fungsi |  
+  |:---|:---|  
+  | git stash | Menyimpan perubahan sementara |  
+  | git stash pop | Mengembalikan perubahan yang di-stash |  
+  | git rm [file] | Menghapus file dari repo dan file system |  
  
  
