@@ -76,6 +76,7 @@ Contoh Struktur Grid
 - `.container`: Membuat padding horizontal dan mengatur lebar responsif.
 - `.row`: Mengatur baris.
 - Hasil:
+  ![bootstrap Grid](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/Grid%202.png)
   
 
   
