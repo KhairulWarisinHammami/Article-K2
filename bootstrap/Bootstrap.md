@@ -97,10 +97,11 @@ Contoh Struktur Grid
 - Alert
   
 ```html
-<div class="alert alert-success" role="alert">
-  Ini adalah pesan sukses!
-</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Brand</a>
+</nav>
 ```
+![Alert]()
 
 - Modal
 
