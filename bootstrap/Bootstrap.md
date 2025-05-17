@@ -86,6 +86,8 @@ Contoh Struktur Grid
     <button class="btn btn-primary">Klik Saya</button>
     ```
     ![Button]()
+
+    
   - Navbar
     ```html
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -108,7 +110,10 @@ Contoh Struktur Grid
       </ul>
     </div>
   </div>
-</nav>```
+</nav>
+```
+
+![Navbar]()
 
 
 - Modal
