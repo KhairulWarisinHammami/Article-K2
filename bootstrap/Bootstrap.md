@@ -87,10 +87,10 @@ Contoh Struktur Grid
     ```
     ![Button]()
   - Navbar
-    
-    `<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    ```html
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Brand</a>
-</nav>` 
+</nav>```
 
 ![navbar]()
 
