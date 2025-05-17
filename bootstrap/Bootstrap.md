@@ -82,8 +82,8 @@ Contoh Struktur Grid
 
   #### E. Komponen-Komponen Bootstrap
 
-  Bootstrap menyediakan berbagai komponen UI siap pakai yang dapat digunakan langsung, Contohnya:
-  - Tombol (Button)
+Bootstrap menyediakan berbagai komponen UI siap pakai yang dapat digunakan langsung, Contohnya:
+- Tombol (Button)
     ```html
     <button class="btn btn-primary">Klik Saya</button>
     ```
@@ -93,7 +93,7 @@ Contoh Struktur Grid
     ![Button](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/BUTTON.png)
 
     
-  - Navbar
+- Navbar
 
 ```html
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
