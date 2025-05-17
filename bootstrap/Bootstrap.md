@@ -88,20 +88,28 @@ Contoh Struktur Grid
     ![Button]()
   - Navbar
     ```html
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Brand</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Brand</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <!-- ... -->
+      </ul>
+    </div>
+  </div>
 </nav>```
 
-![navbar]()
-
-- Alert
-  
-```html
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Brand</a>
-</nav>
-```
-![Alert]()
 
 - Modal
 
@@ -127,11 +135,6 @@ Contoh Struktur Grid
 </div>
 ```
 ![Modal]()
-
-
- 
-
-  
 
   
   
