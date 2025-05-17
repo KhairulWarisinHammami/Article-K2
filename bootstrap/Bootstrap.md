@@ -75,7 +75,8 @@ Contoh Struktur Grid
 ```
 - `.container`: Membuat padding horizontal dan mengatur lebar responsif.
 - `.row`: Mengatur baris.
-- `.col-6`: Mengisi 6 dari 12 kolom yang tersedia.
+- Hasil:
+  
 
   
 
