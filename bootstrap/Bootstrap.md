@@ -163,6 +163,147 @@ Hasil:
 ![Form](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/Form.png)
 
 
+#### F. Contoh Penerapan: Halaman Sederhana
+
+Berikut contoh lengkap sebuah halaman profil sederhana:  
+```html
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Profil Saya</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Profil</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5 text-center bg-light">
+      <div class="container">
+        <h1 class="display-4">Halo, Saya Waris!</h1>
+        <p class="lead">
+          Mahasiswa Ilmu Komputer yang suka coding dan desain.
+        </p>
+        <a href="#about" class="btn btn-primary btn-lg">Tentang Saya</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img
+              src="https://via.placeholder.com/200"
+              class="rounded-circle img-fluid"
+              alt="Foto Profil"
+            />
+          </div>
+          <div class="col-md-8">
+            <h2>Tentang Saya</h2>
+            <p>
+              Saya sedang menempuh studi Ilmu Komputer di Universitas Al Azhar.
+              Hobi saya basket, musik, dan membangun proyek web menggunakan
+              framework modern.
+            </p>
+            <a href="#contact" class="btn btn-outline-primary"
+              >Hubungi Saya</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      &copy; 2025 Waris. All rights reserved.
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>
+```
+
+Penjelasan Kode:
+
+##### 1. Markdown
+
+Ini adalah halaman web sederhana bertema "Profil Saya" yang dibuat menggunakan **HTML5** dan **Bootstrap 5.4.3**. Halaman ini memiliki struktur dasar seperti Navbar, Hero Section, About Section, dan Footer. Menggunakan teknologi html5 dan Bootstrap 5.4.3 (CDN)
+
+##### 2. Navbar
+
+```html
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Profil</a>
+  </div>
+</nav>
+```
+- Navbar bergaya gelap (bg-dark) dan teks putih (navbar-dark)
+- Menggunakan container Bootstrap agar rapi dan responsif
+
+##### Hero Section
+
+```html
+<section class="py-5 text-center bg-light">
+  <div class="container">
+    <h1 class="display-4">Halo, Saya Waris!</h1>
+    <p class="lead">Mahasiswa Ilmu Komputer yang suka coding dan desain.</p>
+    <a href="#about" class="btn btn-primary btn-lg">Tentang Saya</a>
+  </div>
+</section>
+```
+
+- Tampilan pembuka dengan headline dan CTA
+- Menggunakan utilitas Bootstrap (py-5, display-4, btn)
+
+##### About Section
+
+```html
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="https://via.placeholder.com/200" class="rounded-circle img-fluid" alt="Foto Profil" />
+      </div>
+      <div class="col-md-8">
+        <h2>Tentang Saya</h2>
+        <p>...</p>
+        <a href="#contact" class="btn btn-outline-primary">Hubungi Saya</a>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+- Terdiri dari dua kolom: foto profil dan deskripsi diri
+- Responsif dengan row, col-md-4, dan col-md-8
+- Gambar dibulatkan (rounded-circle) dan responsif (img-fluid)
+
+##### Footer
+
+- Tampilan sederhana di bagian bawah halaman
+- Warna latar belakang gelap dan teks putih
+
+
+
+
+
+
 
   
   
