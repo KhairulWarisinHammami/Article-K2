@@ -77,6 +77,60 @@ Contoh Struktur Grid
 - `.row`: Mengatur baris.
 - Hasil:
   ![bootstrap Grid](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/Grid%202.png)
+
+  #### E. Komponen-Komponen Bootstrap
+
+  Bootstrap menyediakan berbagai komponen UI siap pakai yang dapat digunakan langsung, Contohnya:
+  - Tombol (Button)
+    ```html
+    <button class="btn btn-primary">Klik Saya</button>
+    ```
+    ![Button]()
+  - Navbar
+    ```html
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Brand</a>
+</nav>```  
+![navbar]() 
+- Alert
+
+```html
+<div class="alert alert-success" role="alert">
+  Ini adalah pesan sukses!
+</div>
+```
+
+-Modal
+
+```html
+<!-- Tombol -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Judul Modal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Isi dari modal.
+      </div>
+    </div>
+  </div>
+</div>
+```
+![Modal]()
+
+
+ 
+
+  
+
+  
   
 
   
