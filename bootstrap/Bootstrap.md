@@ -63,6 +63,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 #### D. Sistem Grid di Bootstrap
 
+
 Bootstrap menggunakan sistem grid berbasis 12 kolom yang sangat fleksibel. Grid ini memungkinkan Anda membuat layout responsif hanya dengan menambahkan class tertentu.
 Contoh Struktur Grid  
 ```html
@@ -77,6 +78,7 @@ Contoh Struktur Grid
 - `.row`: Mengatur baris.
 - Hasil:
   ![bootstrap Grid](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/Grid%202.png)
+  
 
   #### E. Komponen-Komponen Bootstrap
 
