@@ -90,17 +90,19 @@ Contoh Struktur Grid
     ```html
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Brand</a>
-</nav>```  
-![navbar]() 
-- Alert
+</nav>``` 
 
+![navbar]()
+
+- Alert
+  
 ```html
 <div class="alert alert-success" role="alert">
   Ini adalah pesan sukses!
 </div>
 ```
 
--Modal
+- Modal
 
 ```html
 <!-- Tombol -->
