@@ -89,6 +89,7 @@ Contoh Struktur Grid
     ```
 
     Hasil:
+    
     ![Button](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/BUTTON.png)
 
     
@@ -129,6 +130,7 @@ Contoh Struktur Grid
 </nav>
 ```
 Hasil:
+
 ![Navbar](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/NAvbar2.png)
 
 - Cards
