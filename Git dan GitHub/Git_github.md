@@ -88,5 +88,54 @@ Atau jika disimpulkan:
   | git stash | Menyimpan perubahan sementara |  
   | git stash pop | Mengembalikan perubahan yang di-stash |  
   | git rm [file] | Menghapus file dari repo dan file system |  
+
+
+#### Dasar-dasar GitHub
+ Berikut adalah dasar-dasar GitHub dan bagaimana cara mengimplementasikannya:
+ **1. Buat Akun**  
+ - Buka situs GitHub di github.com, lalu buat akun baru dengan menekan tombol "Sign up"  
+ - Isi informasi yang dibutuhkan seperti email, kata sandi, dan username, lalu tekan tombol "Continue"  
+ - Verfikasi email dengan menyelesaikan captca, lalu tekan "Submit> Create Account"  
+ - Masukkan kode verifikasi yang telah dikirimkan melalui email  
+ - Tekan "Skip this for now" jika ingin melewati proses personalisasi akun, selanjutnya sistem akan menunjukkan dashboard GitHub
+
+**2. Membuat Repository**
+- Buka akun GitHub dan masuk ke Situs GitHub  
+- Klik tombol "New" atau "Create Repository" di sudut kanan ats halaman  
+- Masukkan "Nama Repository" dan "Deskripsi" (opsional)  
+- Pilih apakah repository akan bersifat "Publik" atau "Privat"  
+- Centang pada "Add a README file" jika ingin menambahkan file README  
+- Tekan "Create repository" untuk menyelesaikan proses
+
+**3. Upload Proyek Pertama Kali ke GitHub Via Git**
+  Berikut adalah bagian langkah-langkah awal:
+1. Pastikan Git sudah terinstal  
+   - buka terminal atau CMD, lalu ketik: "git --version", jika sudah terinstal akan muncul versi Git
+2. Buat Repository di GitHub
+   - untuk membuta repository lakukan seperti pada langkah-langkah sebelumnya (ke-2. Membuat Repository)
+   - Jangan centang "Initialize this repository with a README"
+
+ Kemudian berikut adalah langkah-langkah inti dalam mengupload proyek:
+Misalnya kamu telah memiliki folder lokal: "projek-saya/"
+1. Masuk ke folder proyek
+   - cd path/ke/projek-saya
+2. Inisialisasi Git
+   - git init
+3. Tambahkan semua file ke staging area
+   - git add
+4. Commit perubahan
+   - git commit -m "commit pertama"
+5. Tambahkan remote repository dari GitHub (Ganti <username> dan <repo> sesuai dengan akun GitHub)
+   - git remote add origin https://github.com/<username>/<repo>.git
+6. Push ke GitHub
+   - git branch -M main
+   - git push -u origin main
+
+
+
+
+
+
+
  
- 
+
