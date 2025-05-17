@@ -85,7 +85,7 @@ Contoh Struktur Grid
     ```html
     <button class="btn btn-primary">Klik Saya</button>
     ```
-    ![Button]()
+    ![Button](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/BUTTON.png)
 
     
   - Navbar
@@ -125,7 +125,7 @@ Contoh Struktur Grid
 </nav>
 ```
 
-![Navbar]()
+![Navbar](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/NAvbar2.png)
 
 - Cards
   ```html
@@ -138,7 +138,7 @@ Contoh Struktur Grid
   </div>
 </div>
 
-![cards]()
+![cards](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/Cards.png)
 
 - Form
 
@@ -153,32 +153,9 @@ Contoh Struktur Grid
 </div>
 ```
 
-![Form]()
+![Form](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/Form.png)
 
-- Modal
 
-```html
-<!-- Tombol -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Judul Modal</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Isi dari modal.
-      </div>
-    </div>
-  </div>
-</div>
-```
-![Modal]()
 
   
   
