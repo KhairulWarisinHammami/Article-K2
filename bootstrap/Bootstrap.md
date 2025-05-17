@@ -87,6 +87,8 @@ Contoh Struktur Grid
     ```html
     <button class="btn btn-primary">Klik Saya</button>
     ```
+
+    Hasil:
     ![Button](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/BUTTON.png)
 
     
@@ -126,7 +128,7 @@ Contoh Struktur Grid
   </div>
 </nav>
 ```
-
+Hasil:
 ![Navbar](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/NAvbar2.png)
 
 - Cards
@@ -155,6 +157,7 @@ Contoh Struktur Grid
 </div>
 ```
 
+Hasil:
 ![Form](https://github.com/KhairulWarisinHammami/Article-K2/blob/Bootstrap-fix/bootstrap/Form.png)
 
 
