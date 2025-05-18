@@ -91,51 +91,95 @@ Atau jika disimpulkan:
 
 
 #### Dasar-dasar GitHub
- Berikut adalah dasar-dasar GitHub dan bagaimana cara mengimplementasikannya:
+ Berikut adalah dasar-dasar GitHub dan bagaimana cara mengimplementasikannya:  
  **1. Buat Akun**  
- - Buka situs GitHub di github.com, lalu buat akun baru dengan menekan tombol "Sign up"  
- - Isi informasi yang dibutuhkan seperti email, kata sandi, dan username, lalu tekan tombol "Continue"  
- - Verfikasi email dengan menyelesaikan captca, lalu tekan "Submit> Create Account"  
- - Masukkan kode verifikasi yang telah dikirimkan melalui email  
- - Tekan "Skip this for now" jika ingin melewati proses personalisasi akun, selanjutnya sistem akan menunjukkan dashboard GitHub
+ a. Buka situs GitHub di github.com, lalu buat akun baru dengan menekan tombol "Sign up"  
+ b. Isi informasi yang dibutuhkan seperti email, kata sandi, dan username, lalu tekan tombol "Continue"  
+ c. Verfikasi email dengan menyelesaikan captca, lalu tekan "Submit> Create Account"  
+ d. Masukkan kode verifikasi yang telah dikirimkan melalui email  
+ e. Tekan "Skip this for now" jika ingin melewati proses personalisasi akun, selanjutnya sistem akan menunjukkan dashboard GitHub
 
 **2. Membuat Repository**
-- Buka akun GitHub dan masuk ke Situs GitHub  
-- Klik tombol "New" atau "Create Repository" di sudut kanan ats halaman  
-- Masukkan "Nama Repository" dan "Deskripsi" (opsional)  
-- Pilih apakah repository akan bersifat "Publik" atau "Privat"  
-- Centang pada "Add a README file" jika ingin menambahkan file README  
-- Tekan "Create repository" untuk menyelesaikan proses
+a. Buka akun GitHub dan masuk ke Situs GitHub  
+b. Klik tombol "New" atau "Create Repository" di sudut kanan ats halaman  
+c. Masukkan "Nama Repository" dan "Deskripsi" (opsional)  
+d. Pilih apakah repository akan bersifat "Publik" atau "Privat"  
+e. Centang pada "Add a README file" jika ingin menambahkan file README  
+f. Tekan "Create repository" untuk menyelesaikan proses
 
-**3. Upload Proyek Pertama Kali ke GitHub Via Git**
-  Berikut adalah bagian langkah-langkah awal:
-1. Pastikan Git sudah terinstal  
-   - buka terminal atau CMD, lalu ketik: "git --version", jika sudah terinstal akan muncul versi Git
-2. Buat Repository di GitHub
-   - untuk membuta repository lakukan seperti pada langkah-langkah sebelumnya (ke-2. Membuat Repository)
-   - Jangan centang "Initialize this repository with a README"
+**3. Upload Proyek Pertama Kali ke GitHub Via Git**  
+  Berikut adalah bagian langkah-langkah awal:  
+a. Pastikan Git sudah terinstal  
+   - buka terminal atau CMD, lalu ketik: "git --version", jika sudah terinstal akan muncul versi Git  
+b. Buat Repository di GitHub  
+   - untuk membuta repository lakukan seperti pada langkah-langkah sebelumnya (ke-2. Membuat Repository)  
+   - Jangan centang "Initialize this repository with a README"  
 
- Kemudian berikut adalah langkah-langkah inti dalam mengupload proyek:
-Misalnya kamu telah memiliki folder lokal: "projek-saya/"
-1. Masuk ke folder proyek
-   - cd path/ke/projek-saya
-2. Inisialisasi Git
-   - git init
-3. Tambahkan semua file ke staging area
-   - git add
-4. Commit perubahan
-   - git commit -m "commit pertama"
-5. Tambahkan remote repository dari GitHub (Ganti <username> dan <repo> sesuai dengan akun GitHub)
-   - git remote add origin https://github.com/<username>/<repo>.git
-6. Push ke GitHub
-   - git branch -M main
+ Kemudian berikut adalah langkah-langkah inti dalam mengupload proyek:  
+Misalnya kamu telah memiliki folder lokal: "projek-saya/"  
+a. Masuk ke folder proyek  
+   - cd path/ke/projek-saya  
+b. Inisialisasi Git  
+   - git init  
+c. Tambahkan semua file ke staging area  
+   - git add  
+d. Commit perubahan  
+   - git commit -m "commit pertama"  
+e. Tambahkan remote repository dari GitHub (Ganti <username> dan <repo> sesuai dengan akun GitHub)  
+   - git remote add origin https://github.com/<username>/<repo>.git  
+f. Push ke GitHub  
+   - git branch -M main  
    - git push -u origin main
 
+**3. Konsep Fork, Pull Request dan Collaboration  
+a. Fork  
+   Fork (atau forking) adalah proses menyalin sebuah proyek atau repositori milik orang lain, termasuk seluruh riwayat perubahannya, ke dalam akun GitHub pribadi. Tujuan dari tindakan ini adalah untuk memungkinkan pengguna melakukan modifikasi atau pengembangan sesuai keinginan tanpa memberikan dampak langsung terhadap repositori asli.   
 
+b. Pull Request  
+   Pull request digunakan untuk memberi tahu pemilik repository asli bahwa Anda memiliki perubahan atau penambahan kode yang diusulkan untuk digabungkan ke dalam proyek mereka. Melalui pull request, kontributor dapat berpartisipasi dalam pengembangan proyek orang lain dengan mengajukan modifikasi yang telah mereka buat. Selain itu, pull request juga menjadi sarana untuk meminta tinjauan (code review), berdiskusi tentang implementasi, serta menyempurnakan kode bersama tim atau komunitas pengembang sebelum perubahan tersebut diintegrasikan ke dalam basis kode utama.  
 
+c. Collaboration  
+   Kolaborasi berarti bekerja bersama orang lain dalam satu proyek. Dalam GitHub, dilakukan dengan memberi akses kepada pengguna lain untuk mengedit, push, atau mengelola repository Anda secara langsung.  
+   
+Berikut adalah langkah-langkah untuk mengimplementasikan fork, pull request, dan kolaborasi:  
+a. Fork Repository  
+   Fork repository dilakukan jika anda bekerja dengan salinan proyek orang lain. Langkah-langkah:  
+   - Akses Repository Asli:  
+      Kunjungi halaman repository yang ingin Anda kontribusikan di GitHub.  
+   - Fork Repository:  
+      Klik tombol Fork yang ada di pojok kanan atas halaman repository. GitHub akan menyalin repository tersebut ke akun GitHub Anda, sehingga Anda memiliki versi independen dari proyek tersebut.  
+   - Clone Repository ke Lokal:  
+      Setelah melakukan fork, Anda dapat meng-clone repository hasil fork ke komputer lokal Anda dengan menjalankan perintah: **git clone https://github.com/username/repository.git** Gantilah username dengan nama pengguna GitHub Anda dan repository dengan nama repository yang telah Anda fork.  
 
+b. Pull Request  
+   Setelah Anda melakukan perubahan pada repository hasil fork, Anda akan membuat pull request untuk meminta agar perubahan tersebut digabungkan ke repository asli. Langkah-langkah:
+   - Buat Branch Baru:
+     Sebelum mulai mengubah kode, buatlah branch baru di repo lokal Anda untuk mengerjakan perubahan, misalnya: **git checkout -b fitur-baru**  
+   - Lakukan Perubahan:
+     Edit file yang ingin Anda ubah, lalu commit perubahan tersebut: **git add .** **git commit -m "Menambahkan fitur baru"**
+   - Push Perubahan ke Repository Fork:
+     Setelah perubahan selesai, kirim (push) ke repository fork Anda di GitHub: **git push origin fitur-baru**
+   - Buat Pull Request:
+     1). Kembali ke GitHub dan buka repository fork Anda
+     2). Klik tombol Compare & Pull Request yang muncul setelah Anda melakukan push
+     3). Pilih repository asli sebagai tujuan pull request dan beri deskripsi mengenai perubahan yang Anda lakukan
+     4). Klik Create Pull Request untuk mengajukan perubahan tersebut
 
+c. Collaboration  
+   Kolaborasi memungkinkan banyak pengembang bekerja bersama pada satu proyek, baik melalui pull request ataupun kerja langsung pada branch utama. Langkah-langkah:  
+   - Meninjau Pull Request:  
+     Setelah Anda mengajukan pull request, pemilik repository atau kontributor lain akan meninjau perubahan Anda. Mereka bisa memberi komentar, memberikan masukan, atau meminta revisi.  
+   - Diskusi dan Revisi:  
+     Jika ada masukan atau perbaikan yang perlu dilakukan, lakukan perubahan di branch yang sama, commit, dan push lagi ke repository fork Anda. GitHub akan secara otomatis memperbarui pull request dengan perubahan baru tersebut.
+   - Merge Pull Request:  
+     Setelah pull request Anda diterima dan disetujui, pemilik repository atau kolaborator lain akan menggabungkan perubahan Anda ke repository utama menggunakan fitur Merge di GitHub. Perubahan Anda akan terintegrasi ke dalam basis kode proyek utama.
+   - Kolaborasi Langsung:  
+     Jika Anda memiliki akses sebagai collaborator di repository, Anda dapat melakukan perubahan langsung di branch utama atau branch lain tanpa melalui fork. Namun, proses yang lebih umum adalah menggunakan pull request untuk menjaga keamanan dan integritas kode.  
 
-
- 
-
+Contoh Workflow Kolaboratif:  
+- Fork dan clone repository.
+- Buat branch baru untuk fitur atau perbaikan.
+- Lakukan perubahan, commit, dan push ke repository fork Anda.
+- Buat pull request ke repository asli.
+- Review dan diskusi perubahan melalui komentar pada pull request.
+- Setelah disetujui, pemilik repository akan melakukan merge.
