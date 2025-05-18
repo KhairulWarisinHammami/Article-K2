@@ -339,8 +339,8 @@ Berikut beberapa properti yang sering digunakan dalam grid container:
 | `place-items`           | Kombinasi dari `justify-items` dan `align-items`. |   
 
 
-4. Contoh Lengkap Grid Container  
-🔹 HTML:  
+4. Contoh Lengkap Grid Container   
+HTML:   
 html  
 <div class="container">
   <div class="item">A</div>
@@ -349,8 +349,8 @@ html
   <div class="item">D</div>
 </div>  
 
-🔹 CSS:    
-css   
+CSS:      
+css    
 .container {
   display: grid;
 
@@ -414,7 +414,7 @@ css
 .main { grid-area: main; }
 .footer { grid-area: footer; }  
 
-html    
+html   
 <div class="container">
   <div class="header">Header</div>
   <div class="sidebar">Sidebar</div>
