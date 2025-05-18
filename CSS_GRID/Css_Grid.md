@@ -387,17 +387,17 @@ css
 +------------+--------------------+
 |     A      |         B          | ← Baris 1 (100px)
 +------------+--------------------+
-|     C      |         D          | ← Baris 2 (tinggi auto)
+|     C      |         D          | ← Baris 2 (tinggi auto)    
 +------------+--------------------+
 
-Kolom:
-- Kolom 1: 1fr (1 bagian)  
-- Kolom 2: 2fr (2 bagian)  
+Kolom   
+- Kolom 1: 1fr (1 bagian)    
+- Kolom 2: 2fr (2 bagian)   
 
 Gap (jarak antara baris dan kolom): 15px  
 
 6. ## Contoh Grid Container dengan Area Bernama  
-css   
+css     
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -414,7 +414,7 @@ css
 .main { grid-area: main; }
 .footer { grid-area: footer; }  
 
-html  
+html    
 <div class="container">
   <div class="header">Header</div>
   <div class="sidebar">Sidebar</div>
@@ -422,7 +422,7 @@ html
   <div class="footer">Footer</div>
 </div>
 
-7. Ringkasan Cara Kerja Grid Container   
+7. ## Ringkasan Cara Kerja Grid Container   
 - Grid Container dibuat dengan display: grid.   
 - Di dalamnya, kita tentukan  
 > Jumlah dan ukuran kolom (grid-template-columns)  
@@ -431,19 +431,20 @@ html
 - Elemen anak di dalam container otomatis jadi grid item.  
 - Bisa menambahkan area bernama (grid-template-areas) untuk tata letak yang mudah dibaca.  
 
-8. ## Tips Tambahan  
-> Grid container sangat cocok untuk membuat layout halaman seperti:
-- Header - Sidebar - Main - Footer
-- Galeri Gambar
-- Tata letak dashboard
-> Bisa digabung dengan media queries untuk membuat layout responsif di berbagai ukuran layar.
+8. ## Tips Tambahan
+> Grid container sangat cocok untuk membuat layout halaman seperti:  
+- Header - Sidebar - Main - Footer  
+- Galeri Gambar  
+- Tata letak dashboard   
+> Bisa digabung dengan media queries untuk membuat layout responsif di berbagai ukuran layar.  
 
 ### CSS Grid Item  
-1. **Apa itu Item Kotak CSS?**  
+1. **Apa itu Item Kotak CSS?**
+
 Item Kotak biasanya mengacu pada elemen-elemen anak dalam layout grid atau flexbox yang diperlakukan sebagai "kotak" dalam tata letak.
 Dalam konteks CSS Grid, setiap anak langsung dari container grid disebut grid item (item kotak).
 
-2. **Container Grid vs Item Kotak**
+3. **Container Grid vs Item Kotak**
 - Grid Container: elemen induk yang di-set display: grid;
 - Grid Item (Item Kotak): elemen anak langsung di dalam container grid
 
@@ -460,10 +461,11 @@ Dalam konteks CSS Grid, setiap anak langsung dari container grid disebut grid it
 | `grid-area`         | Bisa mengatur area grid dengan nama area atau dengan shorthand `row-start / column-start / row-end / column-end` | `grid-area: 1 / 1 / 3 / 4;` atau `grid-area: myArea;` |
 | `justify-self`      | Mengatur posisi item secara horizontal di dalam grid cell (start, center, end, stretch)                          | `justify-self: center;`                               |
 | `align-self`        | Mengatur posisi item secara vertikal di dalam grid cell (start, center, end, stretch)                            | `align-self: end;`                                    |
-| `place-self`        | Shortcut untuk `align-self` dan `justify-self`                                                                   | `place-self: center end;`                             |    
+| `place-self`        | Shortcut untuk `align-self` dan `justify-self`                                                                   | `place-self: center end;`                             | ]       
 
 4. **Contoh Lengkap Item Kotak CSS Grid**    
-html  
+html
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
