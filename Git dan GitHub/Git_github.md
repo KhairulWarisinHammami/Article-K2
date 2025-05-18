@@ -131,7 +131,7 @@ f. Push ke GitHub
    - git branch -M main  
    - git push -u origin main
 
-**3. Konsep Fork, Pull Request dan Collaboration  
+**3. Konsep Fork, Pull Request dan Collaboration**  
 a. Fork  
    Fork (atau forking) adalah proses menyalin sebuah proyek atau repositori milik orang lain, termasuk seluruh riwayat perubahannya, ke dalam akun GitHub pribadi. Tujuan dari tindakan ini adalah untuk memungkinkan pengguna melakukan modifikasi atau pengembangan sesuai keinginan tanpa memberikan dampak langsung terhadap repositori asli.   
 
