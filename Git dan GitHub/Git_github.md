@@ -4,10 +4,10 @@
 
 #### Pengertian
 
-**1. Git**  
+**A. Git**  
    Git merupakan sebuah sistem kontrol versi (Version Control System, VCS) yang digunakan untuk mencatat setiap perubahan pada kode atau program secara efisien. Fungsi utama pada Git yaitu melacak perubahan pada file proyek, sebagai sarana pengembang kerja bersama atau kolaborasi tanpa konflik dan menyimpan riwayat perubahan kode sehingga bisa kembali ke versi sebelumnya jika terjadi kesalahan.
 
-**2. GitHub**  
+**B. GitHub**  
    GitHub adalah layanan hosting berbasis cloud untuk repositori Git, yang diibaratkan seperti media sosial untuk kode, dan memungkinkan kolaborasi pengembang secara online. Fungsi utama pada GitHub yaitu menyimpan dan membagikan kode secara online, kolabirasi antar-pengembang menggunakan fitur seperti *pull requests* dan *issues*
 
 
@@ -34,20 +34,20 @@ Atau jika disimpulkan:
 #### Dasar-dasar Git  
 
  Berikut adalah dasar-dasar Git yang mencakup perintah umum dan fungsinya:  
-**1. Konfigurasi Awal Git**  
+**A. Konfigurasi Awal Git**  
   | Perintah | Fungsi | 
   |:---|:---|  
   | git config --global user.name "nama" | Mengatur nama pengguna |  
   | git config --global user.email "email@example.com" | Mengatur email pengguna |  
   | git config --list | Menampilkan konfigurasi Git yang sedang aktif |  
 
-**2. membuat dan Mengelola Repository**  
+**B. membuat dan Mengelola Repository**  
   | Perintah | Fungsi |  
   |:---|:---|  
   | git init | Membuat repository Git baru di folder lokal |  
   | git clone [url] | Menyalin repository dari remote ke lokal |  
  
-**3. Perubahan dan Penyimpanan**  
+**C. Perubahan dan Penyimpanan**  
   | Perintah | Fungsi |  
   |:---|:---|  
   | git status | Menampilkan sataus perubahan file |  
@@ -56,7 +56,7 @@ Atau jika disimpulkan:
   | git comit -m "pesan" | Menyimpan perubahan ke repository lokal |  
   | git diff | Menampilkan perbedaan sebelum di-*commit* |  
 
-**4. Remote Repository**  
+**D. Remote Repository**  
   | Perintah | Fungsi |  
   |:---|:---|  
   | git remote add origin [url] | Menambahkan remote repository |  
@@ -64,7 +64,7 @@ Atau jika disimpulkan:
   | git pull | Menngambil update terbaru dari remote repository |  
   | git fetch | Mengambil update dari remote, tanpa marge otomatis |  
 
- **5. Branching dan Marging**  
+ **E. Branching dan Marging**  
   | Perintah | Fungsi |  
   |:---|:---|  
   | git branch | Melihat semua branch |  
@@ -73,7 +73,7 @@ Atau jika disimpulkan:
   | git marge [nama] | Menggabungkan branch ke branch aktif |  
   | git branch -d [nama] | Menghapus branch lokal |  
 
- **6. Riwayat dan Refisi**  
+ **F. Riwayat dan Refisi**  
   | Perintah | Fungsi |  
   |:---|:---|  
   | git log | Melihat riwayat commit |  
@@ -82,7 +82,7 @@ Atau jika disimpulkan:
   | git revert [commit_id] | Membatalkan commit tertentu dengan membuat commit baru |  
   | git reset --hard [commit_id] | Mengembalikan ke commit tertentu (berbahaya: menghapus perubahan) |  
 
- **7. Pembersihan dan Penanganan Sementara**  
+ **G. Pembersihan dan Penanganan Sementara**  
   | Perintah | Fungsi |  
   |:---|:---|  
   | git stash | Menyimpan perubahan sementara |  
@@ -92,12 +92,12 @@ Atau jika disimpulkan:
 
 #### Dasar-dasar GitHub
  Berikut adalah dasar-dasar GitHub dan bagaimana cara mengimplementasikannya:  
- **1. Buat Akun**  
- a. Buka situs GitHub di github.com, lalu buat akun baru dengan menekan tombol "Sign up"  
- b. Isi informasi yang dibutuhkan seperti email, kata sandi, dan username, lalu tekan tombol "Continue"  
- c. Verfikasi email dengan menyelesaikan captca, lalu tekan "Submit> Create Account"  
- d. Masukkan kode verifikasi yang telah dikirimkan melalui email  
- e. Tekan "Skip this for now" jika ingin melewati proses personalisasi akun, selanjutnya sistem akan menunjukkan dashboard GitHub
+ **A. Buat Akun**
+      1. Buka situs GitHub di github.com, lalu buat akun baru dengan menekan tombol "Sign up"  
+ 2. Isi informasi yang dibutuhkan seperti email, kata sandi, dan username, lalu tekan tombol "Continue"  
+ 3. Verfikasi email dengan menyelesaikan captca, lalu tekan "Submit> Create Account"  
+ 4. Masukkan kode verifikasi yang telah dikirimkan melalui email  
+ 5. Tekan "Skip this for now" jika ingin melewati proses personalisasi akun, selanjutnya sistem akan menunjukkan dashboard GitHub
 
 **2. Membuat Repository**
 a. Buka akun GitHub dan masuk ke Situs GitHub  
