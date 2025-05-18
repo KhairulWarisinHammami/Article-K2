@@ -99,6 +99,8 @@ Atau jika disimpulkan:
  - sukkan kode verifikasi yang telah dikirimkan melalui email
  - Tekan "Skip this for now" jika ingin melewati proses personalisasi akun, selanjutnya sistem akan menunjukkan dashboard GitHub
 
+   ![Signup](https://github.com/KhairulWarisinHammami/Article-K2/blob/Gitaa/Git%20dan%20GitHub/Images/signup.png)
+
 **2. Membuat Repository**
 - Buka akun GitHub dan masuk ke Situs GitHub
 - Klik tombol "New" atau "Create Repository" di sudut kanan ats halaman
@@ -106,6 +108,8 @@ Atau jika disimpulkan:
 - Pilih apakah repository akan bersifat "Publik" atau "Privat"
 - Centang pada "Add a README file" jika ingin menambahkan file README
 - Tekan "Create repository" untuk menyelesaikan proses
+
+  ![Create Repo](https://github.com/KhairulWarisinHammami/Article-K2/blob/Gitaa/Git%20dan%20GitHub/Images/Create%20Repo.png)
 
 **3. Upload Proyek Pertama Kali ke GitHub Via Git**  
   Berikut adalah bagian langkah-langkah awal:  
@@ -124,14 +128,17 @@ b. Inisialisasi Git
 c. Tambahkan semua file ke staging area  
    - git add  
 d. Commit perubahan  
-   - git commit -m "commit pertama"  
+   - git commit -m "commit pertama"
+     ![git commit](https://github.com/KhairulWarisinHammami/Article-K2/blob/Gitaa/Git%20dan%20GitHub/Images/Git.png)  
 e. Tambahkan remote repository dari GitHub (Ganti <username> dan <repo> sesuai dengan akun GitHub)  
-   - git remote add origin https://github.com/<username>/<repo>.git  
+   - git remote add origin https://github.com/<username>/<repo>.git
+     ![remote origin](https://github.com/KhairulWarisinHammami/Article-K2/blob/Gitaa/Git%20dan%20GitHub/Images/Remote%20add%20git.png)  
 f. Push ke GitHub  
    - git branch -M main  
    - git push -u origin main
+     ![push](https://github.com/KhairulWarisinHammami/Article-K2/blob/Gitaa/Git%20dan%20GitHub/Images/image.png)
 
-**3. Konsep Fork, Pull Request dan Collaboration**  
+**4. Konsep Fork, Pull Request dan Collaboration**  
 a. Fork  
    Fork (atau forking) adalah proses menyalin sebuah proyek atau repositori milik orang lain, termasuk seluruh riwayat perubahannya, ke dalam akun GitHub pribadi. Tujuan dari tindakan ini adalah untuk memungkinkan pengguna melakukan modifikasi atau pengembangan sesuai keinginan tanpa memberikan dampak langsung terhadap repositori asli.   
 
@@ -141,15 +148,15 @@ b. Pull Request
 c. Collaboration  
    Kolaborasi berarti bekerja bersama orang lain dalam satu proyek. Dalam GitHub, dilakukan dengan memberi akses kepada pengguna lain untuk mengedit, push, atau mengelola repository Anda secara langsung.  
    
-Berikut adalah langkah-langkah untuk mengimplementasikan fork, pull request, dan kolaborasi:  
+#### Berikut adalah langkah-langkah untuk mengimplementasikan fork, pull request, dan kolaborasi:  
 a. Fork Repository  
    Fork repository dilakukan jika anda bekerja dengan salinan proyek orang lain. Langkah-langkah:  
    - Akses Repository Asli:  
       Kunjungi halaman repository yang ingin Anda kontribusikan di GitHub.  
    - Fork Repository:  
-      Klik tombol Fork yang ada di pojok kanan atas halaman repository. GitHub akan menyalin repository tersebut ke akun GitHub Anda, sehingga Anda memiliki versi independen dari proyek tersebut.  
-   - Clone Repository ke Lokal:  
-      Setelah melakukan fork, Anda dapat meng-clone repository hasil fork ke komputer lokal Anda dengan menjalankan perintah: **git clone https://github.com/username/repository.git** Gantilah username dengan nama pengguna GitHub Anda dan repository dengan nama repository yang telah Anda fork.  
+      Klik tombol Fork yang ada di pojok kanan atas halaman repository. GitHub akan menyalin repository tersebut ke akun GitHub Anda, sehingga Anda memiliki versi independen dari proyek tersebut.
+       
+![Fork](https://github.com/KhairulWarisinHammami/Article-K2/blob/Gitaa/Git%20dan%20GitHub/Images/FORKING.png)  
 
 b. Pull Request  
    Setelah Anda melakukan perubahan pada repository hasil fork, Anda akan membuat pull request untuk meminta agar perubahan tersebut digabungkan ke repository asli. Langkah-langkah:
@@ -165,7 +172,13 @@ b. Pull Request
      3). Pilih repository asli sebagai tujuan pull request dan beri deskripsi mengenai perubahan yang Anda lakukan
      4). Klik Create Pull Request untuk mengajukan perubahan tersebut
 
-c. Collaboration  
+     ![Pull request](https://github.com/KhairulWarisinHammami/Article-K2/blob/Gitaa/Git%20dan%20GitHub/Images/Pull2.png)
+     
+
+c. Collaboration
+
+![collaboration](https://github.com/KhairulWarisinHammami/Article-K2/blob/Gitaa/Git%20dan%20GitHub/Images/Collaborators.png)
+
    Kolaborasi memungkinkan banyak pengembang bekerja bersama pada satu proyek, baik melalui pull request ataupun kerja langsung pada branch utama. Langkah-langkah:  
    - Meninjau Pull Request:  
      Setelah Anda mengajukan pull request, pemilik repository atau kontributor lain akan meninjau perubahan Anda. Mereka bisa memberi komentar, memberikan masukan, atau meminta revisi.  
@@ -176,7 +189,7 @@ c. Collaboration
    - Kolaborasi Langsung:  
      Jika Anda memiliki akses sebagai collaborator di repository, Anda dapat melakukan perubahan langsung di branch utama atau branch lain tanpa melalui fork. Namun, proses yang lebih umum adalah menggunakan pull request untuk menjaga keamanan dan integritas kode.  
 
-Contoh Workflow Kolaboratif:  
+**5. Contoh Workflow Kolaboratif:** 
 - Fork dan clone repository.
 - Buat branch baru untuk fitur atau perbaikan.
 - Lakukan perubahan, commit, dan push ke repository fork Anda.
