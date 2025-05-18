@@ -382,7 +382,8 @@ css
   border-radius: 8px;
 }  
 
-5. ## Visualisasi Hasil Grid  
+5. ## Visualisasi Hasil Grid
+   
 +------------+--------------------+
 |     A      |         B          | ← Baris 1 (100px)
 +------------+--------------------+
@@ -396,7 +397,7 @@ Kolom:
 Gap (jarak antara baris dan kolom): 15px  
 
 6. ## Contoh Grid Container dengan Area Bernama  
-css  
+css   
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -421,7 +422,7 @@ html
   <div class="footer">Footer</div>
 </div>
 
-7. Ringkasan Cara Kerja Grid Container  
+7. Ringkasan Cara Kerja Grid Container   
 - Grid Container dibuat dengan display: grid.   
 - Di dalamnya, kita tentukan  
 > Jumlah dan ukuran kolom (grid-template-columns)  
@@ -447,6 +448,7 @@ Dalam konteks CSS Grid, setiap anak langsung dari container grid disebut grid it
 - Grid Item (Item Kotak): elemen anak langsung di dalam container grid
 
 3. **Properti Penting untuk Item Kotak di CSS Grid**
+   
 | Properti            | Keterangan                                                                                                       | Contoh                                                |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | `grid-column-start` | Menentukan garis kolom awal tempat item dimulai                                                                  | `grid-column-start: 1;`                               |
@@ -458,9 +460,9 @@ Dalam konteks CSS Grid, setiap anak langsung dari container grid disebut grid it
 | `grid-area`         | Bisa mengatur area grid dengan nama area atau dengan shorthand `row-start / column-start / row-end / column-end` | `grid-area: 1 / 1 / 3 / 4;` atau `grid-area: myArea;` |
 | `justify-self`      | Mengatur posisi item secara horizontal di dalam grid cell (start, center, end, stretch)                          | `justify-self: center;`                               |
 | `align-self`        | Mengatur posisi item secara vertikal di dalam grid cell (start, center, end, stretch)                            | `align-self: end;`                                    |
-| `place-self`        | Shortcut untuk `align-self` dan `justify-self`                                                                   | `place-self: center end;`                             |
+| `place-self`        | Shortcut untuk `align-self` dan `justify-self`                                                                   | `place-self: center end;`                             |    
 
-4. **Contoh Lengkap Item Kotak CSS Grid**   
+4. **Contoh Lengkap Item Kotak CSS Grid**    
 html  
 <!DOCTYPE html>
 <html lang="id">
