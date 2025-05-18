@@ -100,20 +100,21 @@ Atau jika disimpulkan:
  - Tekan "Skip this for now" jika ingin melewati proses personalisasi akun, selanjutnya sistem akan menunjukkan dashboard GitHub
 
 **2. Membuat Repository**
-a. Buka akun GitHub dan masuk ke Situs GitHub  
-b. Klik tombol "New" atau "Create Repository" di sudut kanan ats halaman  
-c. Masukkan "Nama Repository" dan "Deskripsi" (opsional)  
-d. Pilih apakah repository akan bersifat "Publik" atau "Privat"  
-e. Centang pada "Add a README file" jika ingin menambahkan file README  
-f. Tekan "Create repository" untuk menyelesaikan proses
+- Buka akun GitHub dan masuk ke Situs GitHub
+- Klik tombol "New" atau "Create Repository" di sudut kanan ats halaman
+- Masukkan "Nama Repository" dan "Deskripsi" (opsional)
+- Pilih apakah repository akan bersifat "Publik" atau "Privat"
+- Centang pada "Add a README file" jika ingin menambahkan file README
+- Tekan "Create repository" untuk menyelesaikan proses
 
 **3. Upload Proyek Pertama Kali ke GitHub Via Git**  
   Berikut adalah bagian langkah-langkah awal:  
-a. Pastikan Git sudah terinstal  
-   - buka terminal atau CMD, lalu ketik: "git --version", jika sudah terinstal akan muncul versi Git  
-b. Buat Repository di GitHub  
-   - untuk membuta repository lakukan seperti pada langkah-langkah sebelumnya (ke-2. Membuat Repository)  
-   - Jangan centang "Initialize this repository with a README"  
+  - Pastikan Git sudah terinstal:
+    buka terminal atau CMD, lalu ketik: "git --version", jika sudah terinstal akan muncul versi Git
+
+  - Buat Repository di GitHub: 
+   a. untuk membuta repository lakukan seperti pada langkah-langkah sebelumnya (ke-2. Membuat Repository)  
+   b. Jangan centang "Initialize this repository with a README"  
 
  Kemudian berikut adalah langkah-langkah inti dalam mengupload proyek:  
 Misalnya kamu telah memiliki folder lokal: "projek-saya/"  
