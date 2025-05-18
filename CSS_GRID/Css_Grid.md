@@ -74,49 +74,50 @@ css
   grid-template-columns: 200px 1fr 1fr;
   grid-template-rows: 100px auto;
 }  
-Artinya:
+Artinya:  
 - iga kolom: 200px, sisanya terbagi rata (1fr dan 1fr).
 - grid-template-rows untuk mendefinisikan baris.
- csss
+ csss  
 .container {
   display: grid;
   grid-template-columns: 200px 1fr 1fr;
   grid-template-rows: 100px auto;
 }   
-Artinya:
-- Tiga kolom: 200px, sisanya terbagi rata (1fr dan 1fr).  
-- Dua baris: 100px dan tinggi otomatis.
 
-## Satuan Umum yang Digunakan
-- px: satuan tetap. 
-- fr: fraction unit (bagian dari ruang yang tersedia).
-- %: persentase dari wadah.
-- auto: menyesuaikan isi.
+Artinya:  
+- Tiga kolom: 200px, sisanya terbagi rata (1fr dan 1fr).    
+- Dua baris: 100px dan tinggi otomatis.  
 
-## Gap atau Jarak Antar Grid
-Untuk mengatur jarak antar baris dan kolom:
-css  
+## Satuan Umum yang Digunakan  
+- px: satuan tetap.   
+- fr: fraction unit (bagian dari ruang yang tersedia).  
+- %: persentase dari wadah.  
+- auto: menyesuaikan isi.  
+
+## Gap atau Jarak Antar Grid  
+Untuk mengatur jarak antar baris dan kolom:  
+css   
 .container {
   display: grid;
   gap: 10px;           /* jarak semua sisi */
   row-gap: 15px;       /* khusus baris */
   column-gap: 20px;    /* khusus kolom */
-}
+}   
 
-## Penempatan Grid Item Secara Spesifik
-Gunakan:
-- grid-column  
-- grid-row  
-Contoh:
+## Penempatan Grid Item Secara Spesifik  
+Gunakan:  
+- grid-column   
+- grid-row   
+Contoh:  
 css
 .item1 {
   grid-column: 1 / 3; /* item melebar dari kolom 1 ke 2 */
   grid-row: 1 / 2;    /* item berada di baris 1 */
-}
+}   
 
-## Grid Area  
-Kita bisa menamai bagian-bagian layout: 
-css   
+## Grid Area    
+Kita bisa menamai bagian-bagian layout:   
+css     
 .container {
   display: grid;
   grid-template-areas:
@@ -124,20 +125,20 @@ css
     "sidebar main"
     "footer footer";
   grid-template-columns: 200px 1fr;
-}
+}  
 
-.header  { grid-area: header; }
-.sidebar { grid-area: sidebar; }
-.main    { grid-area: main; }
-.footer  { grid-area: footer; }   
+.header  { grid-area: header; }  
+.sidebar { grid-area: sidebar; }  
+.main    { grid-area: main; }  
+.footer  { grid-area: footer; }     
 
-## Posisi dan Perataan Item
-Perataan horizontal dan vertikal:
-- justify-items: rata horizontal isi grid.
-- align-items: rata vertikal isi grid.
-- justify-self, align-self: berlaku per-item.
+## Posisi dan Perataan Item  
+Perataan horizontal dan vertikal:  
+- justify-items: rata horizontal isi grid.  
+- align-items: rata vertikal isi grid.  
+- justify-self, align-self: berlaku per-item.  
   
-css
+css   
 .container {
   align-items: center;
   justify-items: start;
@@ -154,92 +155,94 @@ css
   .container {
     grid-template-columns: 1fr; /* 1 kolom di layar kecil */
   }
-}   
+}    
 
-## Contoh Sederhana HTML + CSS Grid  
-html  
-<style>
+## Contoh Sederhana HTML + CSS Grid   
+html    
+<style> 
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-  }
+  }  
   .item {
     background: lightblue;
     padding: 20px;
     text-align: center;
-  }
-</style>
-
+  }  
+  
+</style>  
 <div class="container">
   <div class="item">1</div>
   <div class="item">2</div>
   <div class="item">3</div>
   <div class="item">4</div>
-</div>
+</div>  
 
-## Kelebihan CSS Grid  
-- Bisa mengatur layout kompleks dengan mudah.  
-- Mendukung dua dimensi (baris dan kolom).  
-- Responsif untuk berbagai ukuran layar.  
-- Lebih bersih dibanding float atau position.
+## Kelebihan CSS Grid   
+- Bisa mengatur layout kompleks dengan mudah.   
+- Mendukung dua dimensi (baris dan kolom).    
+- Responsif untuk berbagai ukuran layar.    
+- Lebih bersih dibanding float atau position.  
 
 
-### Kolom, Baris dan Celah Grid CSS  
-1. ## Kolom (grid-template-columns)
- Properti ini mengatur jumlah kolom dan ukuran setiap kolom dalam grid.  
-Ukuran bisa berupa:
+### Kolom, Baris dan Celah Grid CSS    
+1. ## Kolom (grid-template-columns)  
+ Properti ini mengatur jumlah kolom dan ukuran setiap kolom dalam grid.   
+Ukuran bisa berupa:  
 - Piksel (px): lebar tetap.  
-- Fraksi (fr): membagi ruang sisa secara proporsional.  
-- Persen (%), auto, dan lain-lain.Contoh:
-Contoh:
-css  
-grid-template-columns: 150px 1fr 2fr;
+- Fraksi (fr): membagi ruang sisa secara proporsional.   
+- Persen (%), auto, dan lain-lain.  
+Contoh:  
+css   
+grid-template-columns: 150px 1fr 2fr;  
 
 Penjelasan:  
+
 | Kolom | Ukuran | Deskripsi                               |
 | ----- | ------ | --------------------------------------- |
 | 1     | 150px  | Lebar tetap 150 piksel                  |
 | 2     | 1fr    | Ambil 1 bagian dari sisa ruang yang ada |
-| 3     | 2fr    | Ambil 2 bagian dari sisa ruang yang ada |   
+| 3     | 2fr    | Ambil 2 bagian dari sisa ruang yang ada |    
 
-Jadi, jika total ruang kosong 300px, kolom kedua akan 100px dan kolom ketiga 200px.  
+Jadi, jika total ruang kosong 300px, kolom kedua akan 100px dan kolom ketiga 200px.   
 
-2. ## (grid-template-rows)
-Mengatur jumlah baris dan tinggi setiap baris.  
-Bisa menggunakan: 
+2. ## (grid-template-rows)  
+Mengatur jumlah baris dan tinggi setiap baris.   
+Bisa menggunakan:  
 - auto → tinggi otomatis sesuai isi.  
-- ukuran tetap (misal 100px).
+- ukuran tetap (misal 100px).  
 
-Contoh:  
-css 
-grid-template-rows: auto 100px;
+Contoh:    
+css   
+grid-template-rows: auto 100px;  
 
 Penjelasan:  
+
 | Baris | Ukuran | Deskripsi                      |
 | ----- | ------ | ------------------------------ |
 | 1     | auto   | Tinggi menyesuaikan isi konten |
-| 2     | 100px  | Tinggi tetap 100 piksel        |  
+| 2     | 100px  | Tinggi tetap 100 piksel        |   
 
-3. ## Celah / Jarak (gap)
+3. ## Celah / Jarak (gap)  
 - Mengatur jarak antar kolom dan baris agar grid tidak menempel.  
 -  mengatur jarak antar baris dan kolom sekaligus.  
 
-Bisa juga pakai:
+Bisa juga pakai:  
 
-- row-gap untuk jarak antar baris saja.
-- column-gap untuk jarak antar kolom saja.
-Contoh:
-css
+- row-gap untuk jarak antar baris saja.  
+- column-gap untuk jarak antar kolom saja.  
+Contoh:  
+css  
 gap: 20px;
 
 atau terpisah:  
-ccs
+ccs  
 row-gap: 10px;
 column-gap: 30px;
 
-4. ## Contoh Lengkap dengan Penjelasan HTML 
-html
+4. ## Contoh Lengkap dengan Penjelasan HTML  
+html  
 <div class="grid-container">
   <div class="item">A</div>
   <div class="item">B</div>
@@ -249,8 +252,8 @@ html
   <div class="item">F</div>
 </div>  
 
-# CSS
-css
+# CSS  
+css  
 .grid-container {
   display: grid;
 
@@ -266,7 +269,7 @@ css
   background-color: #f0f0f0;
   padding: 15px;
   border: 2px solid #ccc;
-}
+}  
 
 .item {
   background-color: #007acc;
@@ -275,44 +278,43 @@ css
   text-align: center;
   padding: 20px;
   border-radius: 8px;
-}
+}  
 
-5. ## Visualisasi Hasil Grid
+5. ## Visualisasi Hasil Grid  
 +----------------+----------------+--------------------+
 |       A        |       B        |         C          | ← Baris 1 (auto tinggi)
 +----------------+----------------+--------------------+
-|       D        |       E        |         F          | ← Baris 2 (100px tinggi)
+|       D        |       E        |         F          | ← Baris 2 (100px tinggi)  
 +----------------+----------------+--------------------+
 
-Kolom:
-- Kolom 1: Lebar tetap 150px
-- Kolom 2: Ambil 1 bagian fraksi dari ruang tersisa
-- Kolom 3: Ambil 2 bagian fraksi dari ruang tersisa
+Kolom:  
+- Kolom 1: Lebar tetap 150px  
+- Kolom 2: Ambil 1 bagian fraksi dari ruang tersisa  
+- Kolom 3: Ambil 2 bagian fraksi dari ruang tersisa  
 
-Gap (celah) antar kolom dan baris: 20px
+Gap (celah) antar kolom dan baris: 20px   
 
-6. ## Ringkasan Cara Kerja
+6. ## Ringkasan Cara Kerja  
 - Browser membuat grid berdasarkan kolom dan baris yang kita definisikan.  
 - Setiap elemen .item ditempatkan ke dalam sel grid secara otomatis.  
-- Jarak antar elemen dibuat oleh properti gap.
-- Ukuran kolom dan baris fleksibel mengikuti aturan yang sudah dibuat.
+- Jarak antar elemen dibuat oleh properti gap.  
+- Ukuran kolom dan baris fleksibel mengikuti aturan yang sudah dibuat.  
 
 
-### Wadah Grid CSS  
-1. Pengertian Grid Container
-**Grid Container** adalah elemen HTML yang dijadikan sebagai "wadah" dari tata letak grid menggunakan properti CSS display: grid.
-Semua aturan grid seperti pembentukan kolom, baris, dan penempatan item berlaku hanya di dalam elemen ini.
+### Wadah Grid CSS    
+1. Pengertian Grid Container  
+**Grid Container** adalah elemen HTML yang dijadikan sebagai "wadah" dari tata letak grid menggunakan properti CSS display: grid.  
+Semua aturan grid seperti pembentukan kolom, baris, dan penempatan item berlaku hanya di dalam elemen ini.  
 
 Semua elemen anak langsung dari grid container akan menjadi grid item.  
 
- 2. ## Cara Membuat Grid Container
-Untuk membuat grid container, cukup menambahkan properti display: grid pada elemen HTML.
-
-Contoh dasar:  
-css  
+ 2. ## Cara Membuat Grid Container  
+Untuk membuat grid container, cukup menambahkan properti display: grid pada elemen HTML.  
+Contoh dasar:    
+css    
 .container {
   display: grid;
-}
+}  
 
 HTML:  
 css  
@@ -321,8 +323,9 @@ css
   <div class="item">Item 2</div>
 </div>
 
-3. ## Properti-Penting Grid Container
-Berikut beberapa properti yang sering digunakan dalam grid container:  
+3. ## Properti-Penting Grid Container  
+Berikut beberapa properti yang sering digunakan dalam grid container:    
+
 | Properti                | Fungsi                                            |
 | ----------------------- | ------------------------------------------------- |
 | `grid-template-columns` | Menentukan jumlah dan ukuran kolom.               |
@@ -333,20 +336,21 @@ Berikut beberapa properti yang sering digunakan dalam grid container:
 | `grid-template-areas`   | Menyusun layout berdasarkan area-area bernama.    |
 | `justify-items`         | Posisi horizontal isi tiap sel grid.              |
 | `align-items`           | Posisi vertikal isi tiap sel grid.                |
-| `place-items`           | Kombinasi dari `justify-items` dan `align-items`. |  
+| `place-items`           | Kombinasi dari `justify-items` dan `align-items`. |   
 
-4. Contoh Lengkap Grid Container
-🔹 HTML:
-html
+
+4. Contoh Lengkap Grid Container  
+🔹 HTML:  
+html  
 <div class="container">
   <div class="item">A</div>
   <div class="item">B</div>
   <div class="item">C</div>
   <div class="item">D</div>
-</div>
+</div>  
 
-🔹 CSS:  
-css
+🔹 CSS:    
+css   
 .container {
   display: grid;
 
@@ -367,7 +371,7 @@ css
   padding: 20px;
   background-color: #f9f9f9;
   border: 2px solid #ccc;
-}
+}  
 
 .item {
   background-color: #2196F3;
@@ -376,9 +380,9 @@ css
   text-align: center;
   padding: 20px;
   border-radius: 8px;
-}
+}  
 
-5. ## Visualisasi Hasil Grid
+5. ## Visualisasi Hasil Grid  
 +------------+--------------------+
 |     A      |         B          | ← Baris 1 (100px)
 +------------+--------------------+
@@ -386,13 +390,13 @@ css
 +------------+--------------------+
 
 Kolom:
-- Kolom 1: 1fr (1 bagian)
-- Kolom 2: 2fr (2 bagian)
+- Kolom 1: 1fr (1 bagian)  
+- Kolom 2: 2fr (2 bagian)  
 
-Gap (jarak antara baris dan kolom): 15px
+Gap (jarak antara baris dan kolom): 15px  
 
-6. ## Contoh Grid Container dengan Area Bernama
-css
+6. ## Contoh Grid Container dengan Area Bernama  
+css  
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -402,14 +406,14 @@ css
     "sidebar main"
     "footer footer";
   gap: 10px;
-}
+}  
 
 .header { grid-area: header; }
 .sidebar { grid-area: sidebar; }
 .main { grid-area: main; }
 .footer { grid-area: footer; }  
 
-html
+html  
 <div class="container">
   <div class="header">Header</div>
   <div class="sidebar">Sidebar</div>
@@ -417,24 +421,24 @@ html
   <div class="footer">Footer</div>
 </div>
 
-7. Ringkasan Cara Kerja Grid Container
-- Grid Container dibuat dengan display: grid.  
-- Di dalamnya, kita tentukan
-> Jumlah dan ukuran kolom (grid-template-columns)
-> Jumlah dan tinggi baris (grid-template-rows)
-> Celah antar sel (gap)
-- Elemen anak di dalam container otomatis jadi grid item.
-- Bisa menambahkan area bernama (grid-template-areas) untuk tata letak yang mudah dibaca.
+7. Ringkasan Cara Kerja Grid Container  
+- Grid Container dibuat dengan display: grid.   
+- Di dalamnya, kita tentukan  
+> Jumlah dan ukuran kolom (grid-template-columns)  
+> Jumlah dan tinggi baris (grid-template-rows)  
+> Celah antar sel (gap)  
+- Elemen anak di dalam container otomatis jadi grid item.  
+- Bisa menambahkan area bernama (grid-template-areas) untuk tata letak yang mudah dibaca.  
 
-8. ## Tips Tambahan
+8. ## Tips Tambahan  
 > Grid container sangat cocok untuk membuat layout halaman seperti:
 - Header - Sidebar - Main - Footer
 - Galeri Gambar
 - Tata letak dashboard
 > Bisa digabung dengan media queries untuk membuat layout responsif di berbagai ukuran layar.
 
-### CSS Grid Item
-1. **Apa itu Item Kotak CSS?**
+### CSS Grid Item  
+1. **Apa itu Item Kotak CSS?**  
 Item Kotak biasanya mengacu pada elemen-elemen anak dalam layout grid atau flexbox yang diperlakukan sebagai "kotak" dalam tata letak.
 Dalam konteks CSS Grid, setiap anak langsung dari container grid disebut grid item (item kotak).
 
@@ -456,8 +460,8 @@ Dalam konteks CSS Grid, setiap anak langsung dari container grid disebut grid it
 | `align-self`        | Mengatur posisi item secara vertikal di dalam grid cell (start, center, end, stretch)                            | `align-self: end;`                                    |
 | `place-self`        | Shortcut untuk `align-self` dan `justify-self`                                                                   | `place-self: center end;`                             |
 
-4. **Contoh Lengkap Item Kotak CSS Grid**
-html
+4. **Contoh Lengkap Item Kotak CSS Grid**   
+html  
 <!DOCTYPE html>
 <html lang="id">
 <head>
