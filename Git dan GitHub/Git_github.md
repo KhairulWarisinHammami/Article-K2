@@ -93,12 +93,11 @@ Atau jika disimpulkan:
 #### Dasar-dasar GitHub
  Berikut adalah dasar-dasar GitHub dan bagaimana cara mengimplementasikannya:  
  **1. Buat Akun**  
- 
-      1. Buka situs GitHub di github.com, lalu buat akun baru dengan menekan tombol "Sign up"  
-      2. Isi informasi yang dibutuhkan seperti email, kata sandi, dan username, lalu tekan tombol "Continue"  
- 3. Verfikasi email dengan menyelesaikan captca, lalu tekan "Submit> Create Account"  
- 4. Masukkan kode verifikasi yang telah dikirimkan melalui email  
- 5. Tekan "Skip this for now" jika ingin melewati proses personalisasi akun, selanjutnya sistem akan menunjukkan dashboard GitHub
+ - Buka situs GitHub di github.com, lalu buat akun baru dengan menekan tombol "Sign up"
+ - Isi informasi yang dibutuhkan seperti email, kata sandi, dan username, lalu tekan tombol "Continue"
+ - Verfikasi email dengan menyelesaikan captca, lalu tekan "Submit> Create Account"
+ - sukkan kode verifikasi yang telah dikirimkan melalui email
+ - Tekan "Skip this for now" jika ingin melewati proses personalisasi akun, selanjutnya sistem akan menunjukkan dashboard GitHub
 
 **2. Membuat Repository**
 a. Buka akun GitHub dan masuk ke Situs GitHub  
