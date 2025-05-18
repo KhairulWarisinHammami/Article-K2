@@ -1092,7 +1092,9 @@ Hasil:
 
 #### F. Contoh Penerapan: Halaman Sederhana
 
-Berikut contoh lengkap kode dan hasil sebuah halaman profil sederhana:  
+Berikut contoh lengkap kode dan hasil sebuah halaman profil sederhana, Ini adalah halaman web sederhana bertema "Profil Saya" yang dibuat menggunakan **HTML5** dan **Bootstrap 5.4.3**. Halaman ini memiliki struktur dasar seperti Navbar, Hero Section, About Section, dan Footer. Menggunakan teknologi html5 dan Bootstrap 5.4.3 (CDN):
+
+
 ```html
 <!DOCTYPE html>
 <html lang="id">
@@ -1167,9 +1169,6 @@ Berikut contoh lengkap kode dan hasil sebuah halaman profil sederhana:
 
 Penjelasan Kode:
 
-##### Markdown
-
-Ini adalah halaman web sederhana bertema "Profil Saya" yang dibuat menggunakan **HTML5** dan **Bootstrap 5.4.3**. Halaman ini memiliki struktur dasar seperti Navbar, Hero Section, About Section, dan Footer. Menggunakan teknologi html5 dan Bootstrap 5.4.3 (CDN)
 
 ##### Navbar
 
