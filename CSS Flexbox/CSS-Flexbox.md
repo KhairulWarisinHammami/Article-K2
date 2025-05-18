@@ -128,9 +128,9 @@ Properti ini digunakan untuk memberi gaya visual, seperti warna, teks rata tenga
 * Di layar lebar (seperti laptop atau desktop):
 Ketiga kotak akan tampil berdampingan secara horizontal, dengan jarak merata di antara mereka.
 
-![desktop](https://github.com/KhairulWarisinHammami/Article-K2/blob/ec12b0305934d4f1424bd492ef76897beb2cabc0/CSS%20Flexbox/desktop.jpeg]
+![desktop](https://github.com/KhairulWarisinHammami/Article-K2/blob/ec12b0305934d4f1424bd492ef76897beb2cabc0/CSS%20Flexbox/desktop.jpeg)
 
 * Di layar kecil (seperti smartphone atau tablet):
 Kotak-kotak tersebut akan secara otomatis turun ke baris baru, tampil satu per satu secara vertikal agar tetap mudah dibaca dan responsif terhadap ukuran layar.
 
-![hp](https://github.com/KhairulWarisinHammami/Article-K2/blob/ec12b0305934d4f1424bd492ef76897beb2cabc0/CSS%20Flexbox/hp.jpeg]
+![hp](https://github.com/KhairulWarisinHammami/Article-K2/blob/ec12b0305934d4f1424bd492ef76897beb2cabc0/CSS%20Flexbox/hp.jpeg)
