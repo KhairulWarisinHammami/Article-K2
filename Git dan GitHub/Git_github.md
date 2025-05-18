@@ -109,12 +109,11 @@ Atau jika disimpulkan:
 
 **3. Upload Proyek Pertama Kali ke GitHub Via Git**  
   Berikut adalah bagian langkah-langkah awal:  
-  - Pastikan Git sudah terinstal:
-    buka terminal atau CMD, lalu ketik: "git --version", jika sudah terinstal akan muncul versi Git
-
-  - Buat Repository di GitHub: 
-   a. untuk membuta repository lakukan seperti pada langkah-langkah sebelumnya (ke-2. Membuat Repository)  
-   b. Jangan centang "Initialize this repository with a README"  
+  a. Pastikan Git sudah terinstal: buka terminal atau CMD, lalu ketik: "git --version", jika sudah terinstal akan muncul versi Git
+  b. Buat Repository di GitHub:
+  
+  - untuk membuat repository lakukan seperti pada langkah-langkah sebelumnya (ke-2. Membuat Repository)
+  - Jangan centang "Initialize this repository with a README"  
 
  Kemudian berikut adalah langkah-langkah inti dalam mengupload proyek:  
 Misalnya kamu telah memiliki folder lokal: "projek-saya/"  
